@@ -53,7 +53,7 @@ namespace unit {
 		//SpinGuard(SpinGuard &&rhs) = delete;
 		//SpinGuard &operator=(SpinGuard &&rhs) = delete;
 
-	}
+	};
 
 
 

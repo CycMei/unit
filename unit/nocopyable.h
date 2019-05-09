@@ -8,7 +8,7 @@ namespace unit {
 
 	protected:
 		NoCopyable() = default;
-		~NoCopyable() = default;
+		virtual ~NoCopyable() = default;
 
 	public:
 		NoCopyable(const NoCopyable &rhs) = delete;
